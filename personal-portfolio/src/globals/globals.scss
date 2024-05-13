@@ -1,0 +1,29 @@
+@use "mixins.scss";
+
+:root {
+  // font colors
+  --font-primary: black;
+  --font-secondary: #6c757d;
+
+  // background colors
+  --background-primary: #f8f9fa;
+  --background-secondary: #f8f9fa;
+
+  // spacers
+  --navbar-height: 88px;
+  --footer-height: 60px;
+
+  background-color: var(--background-primary);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-inter);
+  color: var(--font-primary);
+}
+
+button {
+  cursor: pointer;
+}
