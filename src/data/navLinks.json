@@ -1,14 +1,14 @@
 [
   {
-    "name": "Home",
-    "slug": "/"
-  },
-  {
     "name": "About",
-    "slug": "/about"
+    "slug": "about-ref"
   },
   {
-    "name": "Contact",
-    "slug": "/contact"
+    "name": "Skills",
+    "slug": "skills-ref"
+  },
+  {
+    "name": "Projects",
+    "slug": "projects-ref"
   }
 ]
