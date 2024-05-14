@@ -2,12 +2,16 @@
 
 :root {
   // font colors
-  --font-primary: black;
-  --font-secondary: #6c757d;
+  --font-primary: #272b2e;
+  --font-secondary: #404447;
 
   // background colors
-  --background-primary: #f8f9fa;
-  --background-secondary: #f8f9fa;
+  --background-primary: #f8f8f9;
+  --background-secondary: #ffffff;
+
+  // extra colors
+  --include-purple: #3c257e;
+  --wics-pink: #f88ebc;
 
   // spacers
   --navbar-height: 88px;
@@ -26,4 +30,30 @@
 
 button {
   cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.375rem; /* 54 px */
+  line-height: 110%; /* 59.4px */
+}
+
+h2 {
+  font-size: 2.25rem; /* 36 px */
+  line-height: 120%; /* 43.2px */
+}
+
+h3 {
+  font-size: 1.75rem; /* 28 px */
+  line-height: 120%; /* 33.6px */
+}
+
+p {
+  font-size: 1rem; /* 16 px */
+  line-height: 150%; /* 24px */
 }
