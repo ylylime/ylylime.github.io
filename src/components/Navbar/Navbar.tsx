@@ -2,12 +2,29 @@ import { NavLink } from "@/data/interfaces";
 import { useRef } from "react";
 import styles from "./Navbar.module.scss";
 
-// make sure to add navLinks and useRef to smooth scroll to sections
+// map navlinks and smooth scrolling
+const scrollToRef = (ref: any) => {
+  window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
+};
 
-export default function Navbar({ navLinks }: { navLinks: NavLink[] }) {
+export default function Navbar({
+  navLinks,
+  refs,
+}: {
+  navLinks: NavLink[];
+  refs: any;
+}) {
   return (
     <nav className={styles.navbar}>
-      <p>Navbar</p>
+      <ul className={styles.links}>
+        {navLinks.map((link, index) => (
+          <li key={index}>
+            <button className={styles.sectionButton} onClick={() => scrollToRef(refs[index])}>
+              {link.name}
+            </button>
+          </li>
+        ))}
+      </ul>
     </nav>
   );
 }

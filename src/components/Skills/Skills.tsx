@@ -1,7 +1,14 @@
+import React from "react";
 import styles from "./Skills.module.scss";
 
 // add custom logos for languages and tools from react-icons
 
-export default function Skills() {
-  return <section>skills</section>;
-}
+const Skills = React.forwardRef((_: any, ref: any) => {
+  return (
+    <section className={styles.Skills} ref={ref}>
+      skills
+    </section>
+  );
+});
+
+export default Skills;

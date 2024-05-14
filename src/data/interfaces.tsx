@@ -1,6 +1,5 @@
 interface NavLink {
   name: string;
-  slug: string;
 }
 
 interface Project {

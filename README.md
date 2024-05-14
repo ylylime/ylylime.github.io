@@ -9,7 +9,11 @@ Welcome to our portfolio workshop! We're glad to have you here today. Below is a
    npm --version
    ```
 2. `Fork the repository` by clicking Fork at the top. This creates your own copy that you can change however you want!
-3. Head to Settings and `rename the repository` to something more clear like my-portfolio.
+3. Head to Settings and `rename the repository` to:
+   ```
+   <your-username>.github.io
+   ```
+   - Replace your-username with your GitHub username.
 4. `Clone your forked repository`. Get to your desired directory and type into your terminal
    ```
    git clone repo_link

@@ -13,9 +13,15 @@
   --include-purple: #3c257e;
   --wics-pink: #f88ebc;
 
-  // spacers
+  // navigation
   --navbar-height: 88px;
-  --footer-height: 60px;
+  
+  // spacers
+  --tiny-spacer: 8px;
+  --small-spacer: 16px;
+  --spacer: 24px;
+  --medium-spacer: 48px;
+  --large-spacer: 80px;
 
   background-color: var(--background-primary);
 }
