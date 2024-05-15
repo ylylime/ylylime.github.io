@@ -1,5 +1,4 @@
 import { NavLink } from "@/data/interfaces";
-import { useRef } from "react";
 import styles from "./Navbar.module.scss";
 
 // map navlinks and smooth scrolling
