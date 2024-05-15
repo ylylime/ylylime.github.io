@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import styles from "./About.module.scss";
 
 // add title, description, personal image, and resume button
