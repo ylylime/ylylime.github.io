@@ -28,7 +28,10 @@ const socials = [
 const Contact = React.forwardRef((_: any, ref: any) => {
   return (
     <section className={styles.Contact} ref={ref}>
-      <div className={styles.socials}>ADD YOUR SOCIALS</div>
+      <div className={styles.socials}>
+        <a href={"https://google.com"}><FaGithub /></a>
+        <a href={"https://google.com"}><MdOutlineEmail /></a>
+      </div>
       <p> Made with 💗 2024 @ WiCS x include Workshop</p>
     </section>
   );

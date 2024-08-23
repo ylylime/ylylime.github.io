@@ -1,1 +1,26 @@
 @use 'src/globals/mixins.scss';
+
+.About{
+    height: calc(100vh - var(--navbar-height));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 2rem;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pic{
+    border-radius: 50%;
+}
+.resume{
+    background-color: pink;
+    width: max-content;
+    text-decoration: none;
+    color: white;
+
+}

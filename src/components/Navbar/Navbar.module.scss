@@ -1,1 +1,27 @@
 @use "src/globals/mixins.scss";
+
+.navbar {
+    height: var(--navbar-height);
+    background-color: var(--wics-pink);
+    border-bottom: 3px solid var(--include-purple);
+}
+
+.links {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    
+    padding: 48px;
+}
+
+.sectionButton {
+    border: none;
+    background: none;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;
+}

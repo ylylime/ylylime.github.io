@@ -18,7 +18,9 @@ const Skills = React.forwardRef((_: any, ref: any) => {
     <section className={styles.skillsContainer} ref={ref}>
       <h3 className={styles.skillsTitle}>Skills</h3>
       <div className={styles.Skills}>
-        MAP SKILLS HERE
+        {skills.map((icon, idx) =>
+        <div key={idx}> {icon} </div>
+        )}
       </div>
     </section>
   );

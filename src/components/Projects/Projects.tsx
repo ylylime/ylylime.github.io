@@ -11,7 +11,11 @@ const Projects = React.forwardRef((_: any, ref: any) => {
     <section className={styles.Projects} ref={ref}>
       <h3 className={styles.projectTitle}>My Projects</h3>
       <div className={styles.cards}>
-        MAP PROJECTS DATA TO PROJECTS CARD HERE
+        {ProjectsData.map((project, index) => {
+          return (
+            <ProjectsCard project={project} key={index} />
+          )
+        })}
       </div>
     </section>
   );
